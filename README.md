@@ -10,6 +10,30 @@ https://miliohm.com/sim900a-module-with-arduino-tutorial/
 
 ![image](https://user-images.githubusercontent.com/14288989/111183894-66da2500-85d6-11eb-9f15-f2a9067ba792.png)
 
+```
+Change mode to sms :
+
+AT+CMGF=1
+
+
+Read SMS in text mode :
+
+AT+CNMI=2,2,0,0,0
+
+Make a call :
+
+ATD+1123456789; //replace with number and country code you like
+
+Disconnect / hangup call :
+
+ATH
+
+Receive a phone call :
+
+ATA
+```
+
+
 
 
 ```
