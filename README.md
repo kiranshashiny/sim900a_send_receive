@@ -7,7 +7,7 @@ The send and receive code sends SMS to my phone.
 
 https://miliohm.com/sim900a-module-with-arduino-tutorial/
 
---
+
 
 #include <SoftwareSerial.h>
 SoftwareSerial SIM900A(10,11); // RX | TX
@@ -39,4 +39,3 @@ SIM900A.write(c);
 }
 }
 
---
